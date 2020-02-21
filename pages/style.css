@@ -1,0 +1,99 @@
+html, body {
+	margin : 0;
+	padding : 0;
+}
+
+* {
+	color: black;
+}
+
+body {
+	background-color : white;
+}
+ 
+a {text-decoration : none;
+
+}
+
+#logo, #menu {
+	display: inline-block;
+}
+
+#menu li {display: inline-block; margin-right: 0.5%; border: 2px solid white;
+	border-radius: 7px;
+}
+
+#menu li a {
+	font-size: 1.2em;
+}
+
+#navigation {
+	width: 100%; 
+	position: fixed; 
+	top: 0;
+	background-color: orange;
+}
+
+#navigation {
+	color: white;
+}
+
+#menu {
+	width: 60%; 
+	text-align: right;
+}
+
+#logo {
+	width : 39%
+}
+
+#navigation a:hover {
+	color : purple;
+}
+
+#corps {
+	margin-top: 10%; text-align: center;
+}
+
+#corps2 {
+	margin-top: 10%; text-align: center;
+}
+
+#texte2 {
+	text-align: center;
+}
+
+#texte2 {
+	color : white;
+	background-color: white;
+}
+
+
+#tableau *{
+	text-align: center;
+	margin: auto;
+}
+
+#contact1 {
+	text-align: center;
+}
+
+#contact2 {
+	text-align: center;
+	border-radius: 10px; border : 3px solid black;
+}
+
+#contact3 {
+	text-align: center;
+}
+#contact4 {
+	text-align: center; border-radius: 10px; border : 3px solid black;
+}
+
+#contactlogo, #contactmenu {
+	display: inline-block;
+}
+
+#contactlogo {
+	width : 39%
+}
